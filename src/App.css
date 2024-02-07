@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.navbar {
+  background-color: #333;
+  padding: 10px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-logo {
+  margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-logo img {
+  height: 50px;
+  border-radius: 50px;
+  width: auto;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-item {
+  margin-right: 20px;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #ffcc00;
+}
+
+.form-style {
+  background-color: #f8f9fa; /* Warna latar belakang form */
+  padding: 20px; /* Padding form */
+  border-radius: 5px; /* Border radius form */
+}
+
+.submit-btn {
+  background-color: #007bff; /* Warna tombol Submit */
+  border-color: #007bff; /* Warna border tombol Submit */
+}
+
+.submit-btn:hover {
+  background-color: #0056b3; /* Warna tombol Submit saat dihover */
+  border-color: #0056b3; /* Warna border tombol Submit saat dihover */
 }

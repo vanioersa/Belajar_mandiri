@@ -1,0 +1,40 @@
+{
+  "produk": [
+    {
+      "title": "baru nih",
+      "price": "50000000",
+      "description": "hilang",
+      "id": "fb51"
+    },
+    {
+      "title": "baru nih",
+      "price": "50000000",
+      "description": "hellp",
+      "id": "44d7"
+    },
+    {
+      "title": "baru",
+      "price": "50000000",
+      "description": "hai",
+      "id": "a4a6"
+    },
+    {
+      "title": "baru banget",
+      "price": "50000000",
+      "description": "hallo",
+      "id": "49a2"
+    },
+    {
+      "id": "d562",
+      "title": "baru",
+      "price": "50000000",
+      "description": "hallo"
+    },
+    {
+      "id": "ed03",
+      "title": "baru nih",
+      "price": "50000000",
+      "description": "hallo"
+    }
+  ]
+}
